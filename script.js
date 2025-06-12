@@ -11,7 +11,7 @@ formEle.addEventListener("submit" , (event)=>{
     // console.log("hlo")
     // console.log(cityNameEle.value)
     const cityValue = cityNameEle.value
-    // console.log(cityValue)
+    console.log(cityValue)
 
     getWeatherData(cityValue)
 } )
@@ -27,7 +27,7 @@ async function getWeatherData(cityValue){
     }
     const data = await response.json()
     document.getElementById("heading").textContent = data.name;
-    // console.log(data);
+    console.log(data);
 
     const temprature = Math.floor(data.main.temp)
     const description = data.weather[0].description 
@@ -57,3 +57,5 @@ async function getWeatherData(cityValue){
 
     }
 }
+
+

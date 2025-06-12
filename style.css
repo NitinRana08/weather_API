@@ -4,7 +4,27 @@
     box-sizing: border-box;
     /* font-family: cursive; */
 }
+
+/* .video-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+
+}
+.video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+} */
+
+
 body, html{
+
    background: linear-gradient(to bottom, skyblue, white);
    height: 100%;
    margin: 0;
@@ -98,6 +118,7 @@ form input[type="submit"]:hover{
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 20px;
+    text-transform: capitalize;
 
 
 
@@ -132,7 +153,8 @@ form input[type="submit"]:hover{
 
 .search-box{
     background-color: transparent;
-    background-color: rgb(126, 194, 221);
+    background-color: #87CEEB !important;
+    border-radius: 4px;
     
 }
 .search-box:-webkit-autofill {
@@ -154,4 +176,5 @@ form input[type="submit"]:hover{
 }
 #city-name{
     background-color: transparent;
+    text-transform: capitalize;
 }
