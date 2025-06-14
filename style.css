@@ -5,7 +5,8 @@
     /* font-family: cursive; */
 }
 
-/* .video-container{
+.video-container{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,12 +21,15 @@
     width: 100%;
     object-fit: cover;
 
-} */
+}
+body.with-gradient{
+    background: linear-gradient(to bottom, skyblue, white);
 
+}
 
 body, html{
 
-   background: linear-gradient(to bottom, skyblue, white);
+   /* background: linear-gradient(to bottom, skyblue, white); */
    height: 100%;
    margin: 0;
    padding: 0;
